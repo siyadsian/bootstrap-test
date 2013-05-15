@@ -9,10 +9,8 @@
  */
 
 // Core variables and mixins
-@import "variables.less";
-@import "elements.less"; 
+@import "variables.less"; // Modify this for custom colors, font-sizes, etc
 @import "mixins.less";
-
 
 // CSS Reset
 @import "reset.less";
@@ -25,7 +23,7 @@
 // Base CSS
 @import "type.less";
 @import "code.less";
-//@import "forms.less";
+@import "forms.less";
 @import "tables.less";
 
 // Components: common
@@ -45,7 +43,7 @@
 @import "navbar.less";
 @import "breadcrumbs.less";
 @import "pagination.less";
-//@import "pager.less";
+@import "pager.less";
 
 // Components: Popovers
 @import "modals.less";
@@ -63,23 +61,3 @@
 
 // Utility classes
 @import "utilities.less"; // Has to be last to override when necessary
-
-// Custom Styles
-
-@import "header.less";
-@import "nav.less"; 
-@import "sign-up.less"; 
-@import "right-side.less"; 
-@import "registration.less"; 
-@import "questions.less"; 
-@import "profile.less"; 
-@import "discussion.less";
-@import "chat-side.less";
-@import "left-side.less";
-@import "invite-freind.less";
-@import "custom-dropdown.less";
-@import "ask-area.less";
-@import "custom-tooltip.less";
-@import "files-media.less";
-@import "main";
-
